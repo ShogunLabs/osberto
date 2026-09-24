@@ -1,0 +1,57 @@
+{
+  "name": "Abakkus Asset Manager Limited",
+  "industry": "Asset Management / Financial Services",
+  "description": "We are an alpha-focused, equity-oriented asset management platform, with 93.67% of our managed and advised assets as of March 31, 2026 comprising listed equity and equity-oriented investment strategies. We provide investment management and advisory services across four business verticals: Alternates (AIFs), Offshore and Other Products, Private Equity, and Mutual Funds.",
+  "unit_note": "\u20b9 million",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 0.0,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 77
+  },
+  "objects": [
+    {
+      "purpose": "The objects of the Offer are to achieve the benefits of listing the Equity Shares on the Stock Exchanges and carry out the Offer for Sale of up to 15,000,000 Equity Shares by the Promoter Selling Shareholder. Our Company will not receive any proceeds from the Offer.",
+      "amount_cr": null,
+      "source_page": 112
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY26",
+      "revenue_cr": 765.91,
+      "pat_cr": 327.05,
+      "net_worth_cr": 752.25,
+      "borrowings_cr": 0.0,
+      "eps": 21.8,
+      "source_page": 79
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 683.57,
+      "pat_cr": 257.72,
+      "net_worth_cr": 407.49,
+      "borrowings_cr": 0.0,
+      "eps": 17.17,
+      "source_page": 79
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 418.6,
+      "pat_cr": 205.43,
+      "net_worth_cr": 290.64,
+      "borrowings_cr": 0.0,
+      "eps": null,
+      "source_page": 79
+    }
+  ],
+  "promoter_holding_pre": 99.0,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "Our revenue is predominantly dependent on our AUM and fee/commission income, including performance-linked fees. Any reduction in AUM or decrease in investment performance could adversely affect our business.",
+    "Credit, liquidity, and market risks in relation to investments managed by our AIFs, PMS, and mutual fund schemes may affect returns and client retention.",
+    "We operate in a highly regulated industry subject to frequent regulatory changes and extensive compliance requirements by SEBI."
+  ],
+  "drhp_url": ""
+}

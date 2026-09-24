@@ -1,0 +1,76 @@
+{
+  "name": "German Green Steel and Power Limited",
+  "industry": "Iron and steel manufacturer",
+  "description": "We are a vertically integrated iron and steel manufacturer primarily operating in the western region of India, with a strong presence in Gujarat with a main focus on TMX Bars. We have two manufacturing facilities located in Gujarat: one located at Samakhiyali which is vertically integrated, and the other is located at Viramgam which is operated through our Material Subsidiary German TMX Private Limited. Our product portfolio comprises mainly of TMT Bars, MS Billets and Sponge Iron.",
+  "unit_note": "\u20b9 lakhs",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 450.0,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 28
+  },
+  "objects": [
+    {
+      "purpose": "Funding the capital expenditure requirements of our Company towards expansion of its manufacturing facility at Samakhiyali, Kutch, Gujarat and hybrid wind and solar power plant (\u201cProject\u201d)",
+      "amount_cr": 325.21,
+      "source_page": 29
+    },
+    {
+      "purpose": "Prepayment or repayment, in full or part, of certain outstanding borrowings availed by our Company",
+      "amount_cr": 55.01,
+      "source_page": 29
+    },
+    {
+      "purpose": "General Corporate Purposes",
+      "amount_cr": null,
+      "source_page": 29
+    }
+  ],
+  "financials": [
+    {
+      "fy": "9 months ended Dec 31, 2024",
+      "revenue_cr": 979.79,
+      "pat_cr": 32.08,
+      "net_worth_cr": 233.39,
+      "borrowings_cr": 346.8,
+      "eps": 6.09,
+      "source_page": 31
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 1129.78,
+      "pat_cr": 41.67,
+      "net_worth_cr": 176.06,
+      "borrowings_cr": 198.39,
+      "eps": 7.91,
+      "source_page": 31
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 1121.13,
+      "pat_cr": 31.2,
+      "net_worth_cr": 134.4,
+      "borrowings_cr": 141.67,
+      "eps": 5.93,
+      "source_page": 31
+    },
+    {
+      "fy": "FY22",
+      "revenue_cr": 892.25,
+      "pat_cr": 34.17,
+      "net_worth_cr": 107.06,
+      "borrowings_cr": 151.7,
+      "eps": 6.49,
+      "source_page": 31
+    }
+  ],
+  "promoter_holding_pre": 84.13,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "We derive a majority portion (more than 50% in the nine months ended Dec 31, 2024) of our revenue from our top 10 customers, with our largest customer contributing 17.24%; loss of any of these could adversely affect our business.",
+    "Other than direct institutional sales, we rely on dealers and distributors for product distribution, and termination of arrangements or ineffective selling may adversely affect our operations.",
+    "Our business is substantially dependent on the availability and price of materials from third party suppliers on purchase order basis without long-term contracts."
+  ],
+  "drhp_url": ""
+}

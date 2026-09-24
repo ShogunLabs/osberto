@@ -1,0 +1,67 @@
+{
+  "name": "Hi-Tech Flow Solutions Limited",
+  "industry": "Steel Pipes & Infrastructure / Helical Submerged Arc Welded (HSAW) Pipes",
+  "description": "We provide flow solution products having varied applications by manufacturing and supplying Helical Submerged Arc Welded (HSAW) pipes across 17 states and 2 union territories in India, through our manufacturing facilities at Sanand, Gujarat and Nagpur, Maharashtra. We operate on a business-to-business model catering primarily to EPC contractors executing large-scale water-transmission pipelines, irrigation networks, and urban infrastructure projects.",
+  "unit_note": "₹ million",
+  "basis": "standalone",
+  "issue": {
+    "fresh_cr": 300.0,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 98
+  },
+  "objects": [
+    {
+      "purpose": "Funding the proposed expansion by setting up API-grade HSAW pipe manufacturing unit along with a 3LPE coating unit within our existing Nagpur Facility",
+      "amount_cr": 125.97,
+      "source_page": 154
+    },
+    {
+      "purpose": "Repayment or pre-payment, in part or full of certain borrowings availed by our Company from banks",
+      "amount_cr": 90.0,
+      "source_page": 154
+    },
+    {
+      "purpose": "General corporate purposes",
+      "amount_cr": null,
+      "source_page": 154
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY26",
+      "revenue_cr": 417.17,
+      "pat_cr": 36.42,
+      "net_worth_cr": 131.21,
+      "borrowings_cr": 48.12,
+      "eps": 2.64,
+      "source_page": 103
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 298.28,
+      "pat_cr": 24.26,
+      "net_worth_cr": 94.72,
+      "borrowings_cr": 9.33,
+      "eps": 1.76,
+      "source_page": 103
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 229.03,
+      "pat_cr": 18.32,
+      "net_worth_cr": 70.45,
+      "borrowings_cr": 1.54,
+      "eps": 1.51,
+      "source_page": 103
+    }
+  ],
+  "promoter_holding_pre": 58.92,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "We primarily derive our revenue from the sale of HSAW pipes to EPC contractors engaged in Government-funded water transmission and urban infrastructure projects (72.14% in Fiscal 2026), making us vulnerable to delays, disruptions, or funding constraints in these projects.",
+    "Our manufacturing operations are concentrated in Gujarat and Maharashtra, and a significant portion of our revenue is derived from Maharashtra, Gujarat, and West Bengal, exposing us to region-specific risks.",
+    "We depend on a limited number of domestic suppliers for the procurement of our key raw materials, with our top five suppliers accounting for 90.75% of total purchase cost in Fiscal 2026 without long-term agreements."
+  ],
+  "drhp_url": ""
+}

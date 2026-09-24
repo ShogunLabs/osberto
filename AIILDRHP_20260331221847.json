@@ -1,0 +1,81 @@
+{
+  "name": "Adroit Industries (India) Limited",
+  "industry": "Auto Components / Driveline Systems",
+  "description": "We are engaged in manufacturing propeller shafts and driveline components. Our product portfolio supports end-use applications across the automotive and non-automotive sectors, largely aligned with commercial vehicle applications, passenger vehicles (primarily SUVs), defence, emergency services, off-highway and industrial applications.",
+  "unit_note": "\u20b9 million",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": null,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 94
+  },
+  "objects": [
+    {
+      "purpose": "Funding capital expenditure by our Company towards procurement of machinery and equipment for enhancement of operations at Dewas Facility, and transportation vehicle",
+      "amount_cr": 16.77,
+      "source_page": 164
+    },
+    {
+      "purpose": "Investment in our Subsidiary, Adroit Driveshafts Private Limited, in the form of debt or equity, for funding capital expenditure towards procurement of machinery and equipment at Pithampur Facility, and transportation vehicle",
+      "amount_cr": 36.96,
+      "source_page": 164
+    },
+    {
+      "purpose": "Investment in our Subsidiary, Adroit Driveshafts Private Limited, for re-payment or pre-payment of certain borrowings",
+      "amount_cr": 20.27,
+      "source_page": 164
+    },
+    {
+      "purpose": "General Corporate Purposes",
+      "amount_cr": null,
+      "source_page": 164
+    }
+  ],
+  "financials": [
+    {
+      "fy": "6 months ended September 30, 2025",
+      "revenue_cr": 69.23,
+      "pat_cr": 10.64,
+      "net_worth_cr": 114.92,
+      "borrowings_cr": 64.07,
+      "eps": 3.05,
+      "source_page": 97
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 133.89,
+      "pat_cr": 18.14,
+      "net_worth_cr": 103.49,
+      "borrowings_cr": 64.78,
+      "eps": 5.19,
+      "source_page": 97
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 124.53,
+      "pat_cr": 14.53,
+      "net_worth_cr": 87.76,
+      "borrowings_cr": 81.85,
+      "eps": 4.16,
+      "source_page": 97
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 103.55,
+      "pat_cr": 6.42,
+      "net_worth_cr": 65.27,
+      "borrowings_cr": 93.37,
+      "eps": 1.84,
+      "source_page": 97
+    }
+  ],
+  "promoter_holding_pre": 100.0,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "Major portion of our revenue from Sale of Products is derived from export sales. Revenue from outside India aggregated to 94.15%, 96.27%, 94.56% and 95.13% of our revenue from Sale of Products for the six-month period ended September 30, 2025 and Fiscals 2025, 2024 and 2023, respectively.",
+    "We do not have long-term supply agreements with our customers; our sales are order-based.",
+    "Our business is dependent on the commercial vehicle and automotive industry demand."
+  ],
+  "drhp_url": ""
+}

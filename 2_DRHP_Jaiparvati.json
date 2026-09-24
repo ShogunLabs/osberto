@@ -1,0 +1,67 @@
+{
+  "name": "Jai Parvati Forge Limited",
+  "industry": "Auto Components / Engineering",
+  "description": "We operate an integrated manufacturing business model with capabilities across the value chain including product design support, die development, forging, heat treatment, precision machining, gear cutting, gear tooth grinding, induction hardening and sub-assembly operations. We specialize in the manufacture of bull gears and components for tractor, commercial vehicle, off-highway and industrial segments.",
+  "unit_note": "\u20b9 million",
+  "basis": "standalone",
+  "issue": {
+    "fresh_cr": 300.0,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 85
+  },
+  "objects": [
+    {
+      "purpose": "Partial funding of capital expenditure requirements of our Company towards expansion of our production capabilities in Machined Components at our Manufacturing Unit III (\u201cProposed Expansion\u201d)",
+      "amount_cr": 125.0,
+      "source_page": 134
+    },
+    {
+      "purpose": "Pre-payment and/or re-payment, in part or full, of certain outstanding borrowings availed by our Company",
+      "amount_cr": 95.0,
+      "source_page": 134
+    },
+    {
+      "purpose": "General corporate purposes",
+      "amount_cr": null,
+      "source_page": 134
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY26",
+      "revenue_cr": 420.48,
+      "pat_cr": 41.22,
+      "net_worth_cr": 205.44,
+      "borrowings_cr": 123.53,
+      "eps": 5.61,
+      "source_page": 88
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 346.31,
+      "pat_cr": 25.82,
+      "net_worth_cr": 164.31,
+      "borrowings_cr": 118.2,
+      "eps": 3.51,
+      "source_page": 88
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 321.09,
+      "pat_cr": 23.81,
+      "net_worth_cr": 138.42,
+      "borrowings_cr": 103.47,
+      "eps": 3.24,
+      "source_page": 88
+    }
+  ],
+  "promoter_holding_pre": 88.32,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "We are significantly dependent on our top 10 customers. We derived 79.19%, 84.92% and 85.73% of our revenue from operations in Fiscals 2026, 2025 and 2024, respectively, from our top 10 customers.",
+    "We are significantly dependent on certain suppliers for purchase of raw materials.",
+    "Our manufacturing units are concentrated in Punjab and Himachal Pradesh, exposing us to geographical risks."
+  ],
+  "drhp_url": ""
+}

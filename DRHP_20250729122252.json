@@ -1,0 +1,63 @@
+{
+  "name": "Orient Cables (India) Limited",
+  "industry": "Networking cables and broadband wires and cables industry",
+  "description": "We are one of India’s top five players in the networking cables industry with a market share of approximately 22% in Fiscal 2025. We have one of the most comprehensive product ranges across the industry and are one of the fastest growing players in the wires and cables industry. We operate efficient manufacturing facilities producing high quality networking and communication cables.",
+  "unit_note": "₹ million",
+  "basis": "standalone",
+  "issue": {
+    "fresh_cr": 320.0,
+    "ofs_cr": 380.0,
+    "total_cr": 700.0,
+    "source_page": 82
+  },
+  "objects": [
+    {
+      "purpose": "Funding of capital expenditure requirements of our Company towards purchase of machinery, equipment and civil works at our Manufacturing Facilities",
+      "amount_cr": 91.5,
+      "source_page": 112
+    },
+    {
+      "purpose": "Repayment or prepayment, in full or in part, of all or a portion of certain outstanding borrowings availed by our Company",
+      "amount_cr": 155.5,
+      "source_page": 112
+    },
+    {
+      "purpose": "General corporate purposes",
+      "amount_cr": null,
+      "source_page": 112
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY25",
+      "revenue_cr": 824.96,
+      "pat_cr": 53.29,
+      "net_worth_cr": 180.67,
+      "borrowings_cr": 113.45,
+      "eps": 5.22,
+      "source_page": 79
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 657.77,
+      "pat_cr": 40.07,
+      "net_worth_cr": 127.54,
+      "borrowings_cr": 36.73,
+      "eps": 3.93,
+      "source_page": 79
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 543.68,
+      "pat_cr": 25.96,
+      "net_worth_cr": 87.56,
+      "borrowings_cr": 37.3,
+      "eps": 2.54,
+      "source_page": 79
+    }
+  ],
+  "promoter_holding_pre": 100.0,
+  "promoter_holding_post": null,
+  "top_risks": [],
+  "drhp_url": ""
+}

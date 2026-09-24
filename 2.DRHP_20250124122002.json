@@ -1,0 +1,72 @@
+{
+  "name": "A-One Steels India Limited",
+  "industry": "Steel",
+  "description": "We have six manufacturing facilities of which five are located in Karnataka and one in Andhra Pradesh. Our manufacturing facilities are backward-integrated plants where the iron ore journeys from processing to sponge iron production, and our dynamic processes transform iron ore into MS Billets and then into TMT bars, HR Coil, CR Coil, HR pipes, CR pipes and galvanized tubes and pipes.",
+  "unit_note": "\u20b9 lakhs",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 600.0,
+    "ofs_cr": 50.0,
+    "total_cr": 650.0,
+    "source_page": 30
+  },
+  "objects": [
+    {
+      "purpose": "Equity Investment in Indian Subsidiary of the Company, Vanya Steels Private Limited for purchase of equipment /machineries and civil works for expansion of facility (\u201cProject\u201d)",
+      "amount_cr": 344.37,
+      "source_page": 31
+    },
+    {
+      "purpose": "Equity Investment in Indian Subsidiary of the Company, Vanya Steels Private Limited for investment in Group Captive Companies for procurement of Solar energy",
+      "amount_cr": 40.0,
+      "source_page": 31
+    },
+    {
+      "purpose": "Pre-payment or partial re-payment of a portion of certain outstanding borrowings availed by our Company",
+      "amount_cr": 100.0,
+      "source_page": 31
+    }
+  ],
+  "financials": [
+    {
+      "fy": "3 months ended June 30, 2024",
+      "revenue_cr": 954.61,
+      "pat_cr": 16.18,
+      "net_worth_cr": 605.27,
+      "borrowings_cr": 1098.78,
+      "eps": 2.7,
+      "source_page": 32
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 3834.21,
+      "pat_cr": 38.91,
+      "net_worth_cr": 426.44,
+      "borrowings_cr": 1042.53,
+      "eps": 6.64,
+      "source_page": 32
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 3163.52,
+      "pat_cr": 97.7,
+      "net_worth_cr": 362.58,
+      "borrowings_cr": 1126.04,
+      "eps": 16.68,
+      "source_page": 32
+    },
+    {
+      "fy": "FY22",
+      "revenue_cr": 2756.84,
+      "pat_cr": 100.65,
+      "net_worth_cr": 264.7,
+      "borrowings_cr": 459.99,
+      "eps": 17.18,
+      "source_page": 32
+    }
+  ],
+  "promoter_holding_pre": 85.86,
+  "promoter_holding_post": null,
+  "top_risks": [],
+  "drhp_url": ""
+}

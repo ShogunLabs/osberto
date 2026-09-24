@@ -1,0 +1,58 @@
+{
+  "name": "Iris Global Services Limited",
+  "industry": "Information and Communications Technology (ICT) products distribution",
+  "description": "Our Company is engaged in the distribution of ICT products, wherein procurement is primarily undertaken basis customer requirements. We extend credit to our Channel Partners in accordance with agreed commercial terms, while availing credit periods from leading global original equipment manufacturers and Technology Brands. As our Company continues to expand its operations, we intend to broaden our product portfolio and expand our Channel Partner base.",
+  "unit_note": "₹ million",
+  "basis": "standalone",
+  "issue": {
+    "fresh_cr": 200.0,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 60
+  },
+  "objects": [
+    {
+      "purpose": "Funding the working capital requirements of our Company",
+      "amount_cr": 156.0,
+      "source_page": 107
+    },
+    {
+      "purpose": "General corporate purposes",
+      "amount_cr": null,
+      "source_page": 107
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY26",
+      "revenue_cr": 4156.44,
+      "pat_cr": 79.5,
+      "net_worth_cr": 298.66,
+      "borrowings_cr": 237.14,
+      "eps": 3.98,
+      "source_page": 64
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 3229.13,
+      "pat_cr": 62.29,
+      "net_worth_cr": 221.57,
+      "borrowings_cr": 210.44,
+      "eps": 3.12,
+      "source_page": 64
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 2684.97,
+      "pat_cr": 52.98,
+      "net_worth_cr": 159.35,
+      "borrowings_cr": 126.06,
+      "eps": 2.65,
+      "source_page": 64
+    }
+  ],
+  "promoter_holding_pre": 98.24,
+  "promoter_holding_post": null,
+  "top_risks": [],
+  "drhp_url": ""
+}

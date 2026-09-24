@@ -1,0 +1,67 @@
+{
+  "name": "Elevate Campuses Limited",
+  "industry": "Student accommodation & educational infrastructure (K-12 assets)",
+  "description": "We own, operate and manage on-campus student accommodation across HEIs and own K-12 Assets. We enable HEIs and K\u201312 school operators to offer quality learning environments that support student development and foster all-round growth. We operate our student accommodation business under 'Good Host Spaces' and 'ScholarZ' brands.",
+  "unit_note": "\u20b9 million",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 2550.0,
+    "ofs_cr": 0.0,
+    "total_cr": 2550.0,
+    "source_page": 20
+  },
+  "objects": [
+    {
+      "purpose": "Payment of the purchase consideration for the acquisition of the K-12 Entities and Campuses",
+      "amount_cr": 1100.0,
+      "source_page": 21
+    },
+    {
+      "purpose": "Repayment and/ or prepayment, in full or in part, of certain outstanding borrowings and prepayment penalties availed by our Company and subsidiaries",
+      "amount_cr": 750.0,
+      "source_page": 21
+    },
+    {
+      "purpose": "Funding inorganic growth through unidentified acquisitions, other strategic initiatives and general corporate purposes",
+      "amount_cr": null,
+      "source_page": 21
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY25",
+      "revenue_cr": 369.81,
+      "pat_cr": 52.65,
+      "net_worth_cr": 702.71,
+      "borrowings_cr": 1206.6,
+      "eps": 23.81,
+      "source_page": 22
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 347.0,
+      "pat_cr": 39.69,
+      "net_worth_cr": 655.77,
+      "borrowings_cr": 984.71,
+      "eps": 17.94,
+      "source_page": 22
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 292.5,
+      "pat_cr": 29.0,
+      "net_worth_cr": 576.99,
+      "borrowings_cr": 1026.12,
+      "eps": 13.11,
+      "source_page": 22
+    }
+  ],
+  "promoter_holding_pre": 100.0,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "The Group derived 100% of its revenue from operations in the last three Financial Years from the student accommodation business, and any inability to maintain occupancy rates may adversely affect our business.",
+    "The Group derived 89.00%, 88.60%, and 87.50% of revenue from operations for Fiscals 2025, 2024, and 2023 from three of its largest Higher Education Institutions (HEIs).",
+    "The Group derived 100% of revenue from operations from assets located in the northern and southern regions of India, making it vulnerable to regional adverse developments."
+  ],
+  "drhp_url": ""
+}

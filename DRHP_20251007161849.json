@@ -1,0 +1,72 @@
+{
+  "name": "Armee Infotech Limited",
+  "industry": "IT Infrastructure and Managed Services / Renewable Energy",
+  "description": "We are an Ahmedabad-based IT infrastructure and managed services company, expanding into retail through Experience Zones and into renewable energy via solar EPC and PPA projects. We serve both government/PSU and private clients, with most revenue from PSUs. Our IT services include hardware/software supply, installation, integration, training, and maintenance.",
+  "unit_note": "\u20b9 lakhs",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 300.0,
+    "ofs_cr": 0.0,
+    "total_cr": 300.0,
+    "source_page": 16
+  },
+  "objects": [
+    {
+      "purpose": "Expansion of business by procuring new Government/PSU projects",
+      "amount_cr": 155.0,
+      "source_page": 17
+    },
+    {
+      "purpose": "Funding our working capital requirements",
+      "amount_cr": 60.0,
+      "source_page": 17
+    },
+    {
+      "purpose": "Prepayment or repayment of certain outstanding borrowings availed by our Company",
+      "amount_cr": 7.5,
+      "source_page": 17
+    },
+    {
+      "purpose": "General corporate purposes",
+      "amount_cr": null,
+      "source_page": 17
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY25",
+      "revenue_cr": 1313.31,
+      "pat_cr": 41.67,
+      "net_worth_cr": 136.67,
+      "borrowings_cr": 48.1,
+      "eps": 17.56,
+      "source_page": 18
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 1020.57,
+      "pat_cr": 50.13,
+      "net_worth_cr": 95.18,
+      "borrowings_cr": 27.26,
+      "eps": 21.12,
+      "source_page": 18
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 502.7,
+      "pat_cr": 16.57,
+      "net_worth_cr": 46.7,
+      "borrowings_cr": 32.08,
+      "eps": 6.98,
+      "source_page": 18
+    }
+  ],
+  "promoter_holding_pre": 92.72,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "We depend significantly on orders from Government/PSU clients. As of March 31, 2025, more than 57.47% of revenue was recognized from Government/PSU clients.",
+    "We are dependent on our Technology Partners for hardware and software products. As of March 31, 2025, 77.96% of purchases were from our top three Technology Partners.",
+    "Most projects are awarded primarily through competitive bidding, and we may not always qualify for, compete, and win projects."
+  ],
+  "drhp_url": ""
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Manika Plastech Limited",
+  "industry": "Rigid polymer packaging manufacturing",
+  "description": "We are a design-led, precision engineered, rigid polymer packaging manufacturing company, catering to diversified critical industries such as energy storage, dairy and edible food products, paints, and chemicals. With focus on application specific performance, durability, product safety and efficiency, we have our product portfolio built around precision engineered solutions such as high-performance battery casings, pail & thinwall containers, each tailoring to serve industrial and consumer use cases.",
+  "unit_note": "₹ million",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 115.0,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 28
+  },
+  "objects": [
+    {
+      "purpose": "Funding the capital expenditure towards purchase of plant and machinery",
+      "amount_cr": 59.82,
+      "source_page": 29
+    },
+    {
+      "purpose": "Repayment and/or pre-payment, in part or full, of certain borrowings availed by our Company",
+      "amount_cr": 25.0,
+      "source_page": 29
+    },
+    {
+      "purpose": "General Corporate Purposes",
+      "amount_cr": null,
+      "source_page": 29
+    }
+  ],
+  "financials": [
+    {
+      "fy": "9 months ended Dec 31, 2024",
+      "revenue_cr": 295.58,
+      "pat_cr": 11.69,
+      "net_worth_cr": 117.39,
+      "borrowings_cr": 100.37,
+      "eps": 1.23,
+      "source_page": 30
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 360.77,
+      "pat_cr": 11.55,
+      "net_worth_cr": 107.85,
+      "borrowings_cr": 93.06,
+      "eps": 1.22,
+      "source_page": 30
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 396.51,
+      "pat_cr": 11.32,
+      "net_worth_cr": 98.26,
+      "borrowings_cr": 62.63,
+      "eps": 1.19,
+      "source_page": 30
+    },
+    {
+      "fy": "FY22",
+      "revenue_cr": 332.82,
+      "pat_cr": 9.97,
+      "net_worth_cr": 89.77,
+      "borrowings_cr": 68.08,
+      "eps": 1.02,
+      "source_page": 30
+    }
+  ],
+  "promoter_holding_pre": 99.25,
+  "promoter_holding_post": null,
+  "top_risks": [],
+  "drhp_url": ""
+}

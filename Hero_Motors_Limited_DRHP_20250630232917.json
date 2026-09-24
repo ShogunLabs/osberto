@@ -1,0 +1,72 @@
+{
+  "name": "Hero Motors Limited",
+  "industry": "Automotive powertrain solutions and components",
+  "description": "We offer comprehensive solutions including services for designing, prototyping, validating, developing, and delivering system-level powertrain solutions for both electric as well as non-electric powertrains. Our offerings find application in two-wheelers, performance automotive, e-bikes, off-road vehicles, electric and hybrid cars, heavy duty vehicles, and electric vertical take-off and landing categories. Our operations are organized into Powertrain Solutions and Alloys and Metallics business segments.",
+  "unit_note": "₹ million",
+  "basis": "consolidated",
+  "issue": {
+    "fresh_cr": 800.0,
+    "ofs_cr": 400.0,
+    "total_cr": 1200.0,
+    "source_page": 27
+  },
+  "objects": [
+    {
+      "purpose": "Repayment/prepayment/redemption in full or in part, of certain outstanding borrowings availed by our Company",
+      "amount_cr": 285.0,
+      "source_page": 28
+    },
+    {
+      "purpose": "Capital expenditure of our Company through purchase of equipment required for expansion in capacity of our Gautam Buddha Nagar, Uttar Pradesh facility",
+      "amount_cr": 237.0,
+      "source_page": 28
+    },
+    {
+      "purpose": "Funding inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+      "amount_cr": null,
+      "source_page": 28
+    }
+  ],
+  "financials": [
+    {
+      "fy": "9 months ended Dec 31, 2024",
+      "revenue_cr": 807.27,
+      "pat_cr": 22.39,
+      "net_worth_cr": 412.01,
+      "borrowings_cr": 374.0,
+      "eps": 0.45,
+      "source_page": 31
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 1064.39,
+      "pat_cr": 17.04,
+      "net_worth_cr": 385.44,
+      "borrowings_cr": 304.0,
+      "eps": 0.36,
+      "source_page": 31
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 1054.62,
+      "pat_cr": 40.51,
+      "net_worth_cr": 344.47,
+      "borrowings_cr": 269.61,
+      "eps": 1.13,
+      "source_page": 31
+    },
+    {
+      "fy": "FY22",
+      "revenue_cr": 914.19,
+      "pat_cr": 99.02,
+      "net_worth_cr": 159.11,
+      "borrowings_cr": 265.39,
+      "eps": 2.8,
+      "source_page": 31
+    }
+  ],
+  "promoter_holding_pre": 73.97,
+  "promoter_holding_post": null,
+  "top_risks": [],
+  "drhp_url": ""
+}

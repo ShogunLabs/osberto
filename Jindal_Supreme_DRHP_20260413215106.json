@@ -1,0 +1,71 @@
+{
+  "name": "Jindal Supreme (India) Limited",
+  "industry": "Steel Pipes & Tubes / Infrastructure",
+  "description": "Our manufacturing facility is located in Hisar, Haryana, equipped with machinery, mills, welding plants, and galvanizing plants. Our product portfolio includes Mild Steel (MS) black pipes, tubes and galvanized pipes, tubes, metal beam crash barriers, and galvanized iron (GI) tubular poles.",
+  "unit_note": "\u20b9 lakhs",
+  "basis": "standalone",
+  "issue": {
+    "fresh_cr": null,
+    "ofs_cr": null,
+    "total_cr": null,
+    "source_page": 60
+  },
+  "objects": [
+    {
+      "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by our Company",
+      "amount_cr": 77.0,
+      "source_page": 100
+    },
+    {
+      "purpose": "General corporate purposes",
+      "amount_cr": null,
+      "source_page": 100
+    }
+  ],
+  "financials": [
+    {
+      "fy": "9 months ended December 31, 2025",
+      "revenue_cr": 489.65,
+      "pat_cr": 16.3,
+      "net_worth_cr": 90.54,
+      "borrowings_cr": 92.17,
+      "eps": 4.05,
+      "source_page": 63
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 586.4,
+      "pat_cr": 24.27,
+      "net_worth_cr": 74.64,
+      "borrowings_cr": 95.84,
+      "eps": 6.02,
+      "source_page": 63
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 645.44,
+      "pat_cr": 12.87,
+      "net_worth_cr": 50.31,
+      "borrowings_cr": 104.92,
+      "eps": 3.17,
+      "source_page": 63
+    },
+    {
+      "fy": "FY23",
+      "revenue_cr": 506.12,
+      "pat_cr": 0.63,
+      "net_worth_cr": 41.7,
+      "borrowings_cr": 73.01,
+      "eps": 0.13,
+      "source_page": 63
+    }
+  ],
+  "promoter_holding_pre": 82.03,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "Operations at our Manufacturing Facility are concentrated at a single location in Hisar, Haryana, and our business is dependent on this facility; any disruption could materially affect operations.",
+    "Our business depends on the availability and prices of steel raw materials (HR coils and zinc).",
+    "Sales through our dealer network contributed a substantial portion of our revenue from operations."
+  ],
+  "drhp_url": ""
+}

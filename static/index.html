@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Augur — IPO Intelligence</title>
+  <meta name="description" content="Premium IPO intelligence browser with institutional-grade DRHP analysis.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📈</text></svg>">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="page">
+
+  <!-- ── TOPBAR ─────────────────────────────────────── -->
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="logo" id="logo" title="Augur IPO Intelligence" onclick="navigateTo('')">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+        </svg>
+      </div>
+
+      <div class="search-box">
+        <svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input id="search-input" type="text" placeholder="Search IPOs..." autocomplete="off">
+        <span class="search-kbd">⌘K</span>
+      </div>
+
+      <div class="topbar-right">
+        <div class="topbar-date">
+          <span class="live-dot"></span>
+          <span id="today-label">Today</span>
+        </div>
+        <button class="btn btn-login" id="btn-add-json">Login</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── LIST VIEW (HOME) ─────────────────────────── -->
+  <main class="main" id="view-list">
+    <div class="wrap">
+      <div class="page-header">
+        <h1 class="page-title">IPOs</h1>
+        <div class="type-tabs" id="type-tabs">
+          <button class="type-tab active" data-type="all">All</button>
+          <button class="type-tab" data-type="regular">Mainboard</button>
+          <button class="type-tab" data-type="sme">SME</button>
+        </div>
+      </div>
+
+      <div class="section-label" id="section-label">UPCOMING <span id="ipo-count">0</span></div>
+
+      <div class="ipo-list" id="ipo-list"></div>
+    </div>
+  </main>
+
+  <!-- ── DETAIL VIEW ──────────────────────────────── -->
+  <main class="main" id="view-detail" style="display:none;">
+    <div class="wrap">
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb">
+        <a href="#" onclick="navigateTo('');return false;" class="bc-link">IPOs</a>
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        <span class="bc-current" id="d-breadcrumb">—</span>
+      </div>
+
+      <!-- Company Header -->
+      <div class="detail-header">
+        <div class="detail-header-left">
+          <div class="detail-avatar" id="d-avatar"></div>
+          <div class="detail-info">
+            <h1 class="detail-name" id="d-name">—</h1>
+            <div class="detail-meta" id="d-meta"></div>
+          </div>
+        </div>
+        <div class="detail-actions" id="d-actions">
+          <span class="badge badge-green" id="d-status-badge">DRHP Stage</span>
+          <button class="btn btn-outline" id="d-btn-schema" onclick="showSchemaModal()">Raw Schema</button>
+        </div>
+      </div>
+
+      <!-- Key Metrics Strip -->
+      <div class="detail-metrics" id="d-metrics">
+        <div class="dm-cell">
+          <div class="dm-label">Issue size</div>
+          <div class="dm-val" id="d-issue-size">—</div>
+        </div>
+        <div class="dm-cell">
+          <div class="dm-label">Fresh Capital</div>
+          <div class="dm-val dm-green" id="d-fresh">—</div>
+        </div>
+        <div class="dm-cell">
+          <div class="dm-label">OFS</div>
+          <div class="dm-val dm-amber" id="d-ofs">—</div>
+        </div>
+        <div class="dm-cell">
+          <div class="dm-label">Latest Revenue</div>
+          <div class="dm-val" id="d-revenue">—</div>
+        </div>
+      </div>
+
+      <!-- Two-Column Detail Body -->
+      <div class="detail-body">
+
+        <!-- Left Column: Description + Capital + Governance -->
+        <div class="detail-left">
+
+          <!-- Description -->
+          <div class="detail-section" id="d-desc-section">
+            <div class="ds-head">About</div>
+            <p class="ds-text" id="d-description">—</p>
+          </div>
+
+          <!-- Capital Deployment -->
+          <div class="detail-section">
+            <div class="ds-head">Capital Deployment</div>
+            <table class="detail-table" id="d-objects-table">
+              <thead>
+                <tr>
+                  <th>Purpose</th>
+                  <th>Amount (₹ Cr)</th>
+                  <th>% of Fresh</th>
+                </tr>
+              </thead>
+              <tbody id="d-objects-tbody"></tbody>
+            </table>
+          </div>
+
+          <!-- Risk Factors -->
+          <div class="detail-section">
+            <div class="ds-head">Key Risk Factors</div>
+            <div class="risk-list" id="d-risk-list"></div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Financials -->
+        <div class="detail-right">
+
+          <!-- Chart -->
+          <div class="detail-section">
+            <div class="ds-head">
+              <span>Revenue & PAT</span>
+              <div class="chart-legend">
+                <div class="leg"><div class="leg-dot" style="background:#818cf8"></div>Revenue</div>
+                <div class="leg"><div class="leg-dot" style="background:#34d399"></div>PAT</div>
+              </div>
+            </div>
+            <canvas id="fin-chart" height="180"></canvas>
+          </div>
+
+          <!-- Financials Table -->
+          <div class="detail-section">
+            <div class="ds-head" id="d-fin-label">Financials (₹ Cr)</div>
+            <table class="detail-table">
+              <thead>
+                <tr>
+                  <th>Period</th>
+                  <th>Revenue</th>
+                  <th>PAT</th>
+                  <th>Margin</th>
+                  <th>Net Worth</th>
+                  <th>EPS</th>
+                </tr>
+              </thead>
+              <tbody id="d-fin-tbody"></tbody>
+            </table>
+          </div>
+
+          <!-- Promoter Holding -->
+          <div class="detail-section">
+            <div class="ds-head">Governance</div>
+            <div class="promo-grid">
+              <div class="promo-card">
+                <div class="promo-label">Pre-Issue Promoter</div>
+                <div class="promo-value" id="d-promo-pre">—</div>
+                <div class="promo-note">Before IPO dilution</div>
+              </div>
+              <div class="promo-card">
+                <div class="promo-label">Post-Issue Promoter</div>
+                <div class="promo-value promo-pending">Pending</div>
+                <div class="promo-note">Upon book-building</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── SCHEMA MODAL ─────────────────────────────── -->
+  <div class="overlay" id="schema-overlay">
+    <div class="modal">
+      <div class="modal-head">
+        <span class="modal-title">Augur Schema</span>
+        <div class="modal-head-right">
+          <button class="btn btn-sm" id="btn-copy-schema">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+            </svg>
+            Copy
+          </button>
+          <button class="modal-close" onclick="closeOverlay('schema-overlay')">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <pre class="code-view" id="schema-code"></pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── UPLOAD MODAL ───────────────────────────────── -->
+  <div class="overlay" id="upload-overlay">
+    <div class="modal" style="max-width:560px;">
+      <div class="modal-head">
+        <span class="modal-title">Add IPO Prospectus</span>
+        <button class="modal-close" id="upload-close" onclick="closeOverlay('upload-overlay')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="file" id="file-input" accept=".json" style="display:none">
+        <div class="dropzone" id="dropzone">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--text-3);margin-bottom:12px;">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+          <div class="dropzone-title">Click to upload or drag & drop</div>
+          <div class="dropzone-sub">Accepts .json files with DRHP structure</div>
+        </div>
+        <label class="paste-label" for="paste-area">Or paste JSON directly</label>
+        <textarea id="paste-area" rows="6" placeholder='{"name": "Company Limited", "industry": "Technology", ...}'></textarea>
+        <button class="btn btn-primary btn-full" id="btn-submit-paste">Save & Index</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOAST ─────────────────────────────────────── -->
+  <div class="toast" id="toast">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"/>
+    </svg>
+    <span id="toast-msg"></span>
+  </div>
+
+  <script src="/static/js/charts.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "name": "Vardaan Biotech Limited",
+  "industry": "Agriculture / Seed Development & Production",
+  "description": "We are engaged in the seed business, with operations centered on enhancing agricultural productivity through scientifically developed seeds, quality-focused production practices, and farmer support services. Our product portfolio comprises a diverse range of hybrid, improved, and notified seeds across cereals, vegetable seeds, herbs seeds, pulses, oilseeds, and fodder seeds.",
+  "unit_note": "₹ lakhs",
+  "basis": "standalone",
+  "issue": {
+    "fresh_cr": null,
+    "ofs_cr": 0.0,
+    "total_cr": null,
+    "source_page": 62
+  },
+  "objects": [
+    {
+      "purpose": "Funding capital expenditure requirements for expansion of our Processing Unit",
+      "amount_cr": 31.04,
+      "source_page": 102
+    },
+    {
+      "purpose": "Funding Capital expenditure for acquiring land on outright basis for seed breeding",
+      "amount_cr": 3.81,
+      "source_page": 102
+    },
+    {
+      "purpose": "Funding the purchase of office premises at Vadodara, Gujarat",
+      "amount_cr": 2.2,
+      "source_page": 102
+    },
+    {
+      "purpose": "Funding the working capital requirements of our Company",
+      "amount_cr": 49.44,
+      "source_page": 102
+    },
+    {
+      "purpose": "General Corporate Purposes",
+      "amount_cr": null,
+      "source_page": 102
+    }
+  ],
+  "financials": [
+    {
+      "fy": "FY26",
+      "revenue_cr": 167.09,
+      "pat_cr": 18.35,
+      "net_worth_cr": 99.55,
+      "borrowings_cr": 18.86,
+      "eps": 12.53,
+      "source_page": 65
+    },
+    {
+      "fy": "FY25",
+      "revenue_cr": 151.13,
+      "pat_cr": 17.61,
+      "net_worth_cr": 61.0,
+      "borrowings_cr": 29.59,
+      "eps": 12.43,
+      "source_page": 65
+    },
+    {
+      "fy": "FY24",
+      "revenue_cr": 140.14,
+      "pat_cr": 16.48,
+      "net_worth_cr": 43.37,
+      "borrowings_cr": 30.24,
+      "eps": 12.2,
+      "source_page": 65
+    }
+  ],
+  "promoter_holding_pre": 57.03,
+  "promoter_holding_post": null,
+  "top_risks": [
+    "Our Promoter, Lokendra Singh Rajput, is involved in a criminal proceeding and is subject to investigations by law enforcement agencies, including the Economic Offences Wing, an adverse outcome of which could impact our reputation and operations.",
+    "Our business is subject to risks related to weather, crop disease, and pests that could adversely affect the results of our operations and financial condition.",
+    "Our revenue from operations is significantly dependent on the sale of certain seed products, particularly Maize Seeds, Paddy Seeds, and Wheat Seeds."
+  ],
+  "drhp_url": ""
+}
