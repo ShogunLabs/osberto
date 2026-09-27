@@ -54,10 +54,28 @@ The server will start at: `http://localhost:8000`
 - `POST /api/v1/ipos/create` - Programmatically create a new IPO JSON file dynamically.
 - `POST /api/v1/ipos/upload-file` - Upload a `.json` file directly into the server directory.
 
+## Database Ingestion & Cloud Deployment
+
+Instead of relying solely on flat JSON files, you can persist and query records using [ingest.py](file:///Users/priyanshu/Downloads/output/ingest.py):
+
+### 1. Local SQLite (Zero Setup)
+```bash
+python ingest.py
+```
+This generates an indexed SQLite database `ipos.db` ready for fast local queries.
+
+### 2. Cloud PostgreSQL (Supabase / Neon)
+Pass your PostgreSQL connection string:
+```bash
+export DATABASE_URL="postgresql://user:password@ep-host.region.neon.tech/neondb?sslmode=require"
+python ingest.py
+```
+
 ## Project Structure
 
 - `server.py`: The core FastAPI application containing routing, logic, and parsing functions.
+- `ingest.py`: Database ingestion script supporting SQLite and PostgreSQL (Supabase/Neon).
+- `data/drhp/`: Clean directory storing normalized DRHP JSON prospectuses (`{company-slug}.json`).
 - `start.sh`: A shell script to simplify application startup.
 - `requirements.txt`: Python dependencies required to run the server.
-- `static/`: Directory containing static files (e.g., `index.html`) served by the application.
-- `*.json`: Assorted DRHP prospectuses parsed and loaded by the server upon startup.
+- `static/`: Frontend dashboard UI served by the application.

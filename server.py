@@ -32,6 +32,8 @@ app.add_middleware(
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_DIR = os.path.join(BASE_DIR, "static")
+DATA_DIR = os.path.join(BASE_DIR, "data", "drhp")
+os.makedirs(DATA_DIR, exist_ok=True)
 
 # In-memory storage of loaded IPOs
 ipos_cache: Dict[str, Dict[str, Any]] = {}
@@ -84,8 +86,10 @@ def load_all_ipos() -> Dict[str, Dict[str, Any]]:
     records = {}
     seen_names = {}
 
-    pattern = os.path.join(BASE_DIR, "*.json")
-    json_files = glob.glob(pattern)
+    # Scan dedicated data directory, with graceful fallback to BASE_DIR
+    json_files = glob.glob(os.path.join(DATA_DIR, "*.json"))
+    if not json_files:
+        json_files = glob.glob(os.path.join(BASE_DIR, "*.json"))
 
     for filepath in sorted(json_files):
         filename = os.path.basename(filepath)
@@ -546,7 +550,7 @@ def create_ipo_json(payload: IPOUploadRequest):
     """
     clean_name = slugify(payload.name)
     filename = f"{clean_name}_DRHP.json"
-    filepath = os.path.join(BASE_DIR, filename)
+    filepath = os.path.join(DATA_DIR, filename)
 
     data = payload.dict()
     with open(filepath, "w", encoding="utf-8") as f:
@@ -567,7 +571,7 @@ async def upload_json_file(file: UploadFile = File(...)):
     if not file.filename.endswith(".json"):
         raise HTTPException(status_code=400, detail="Only .json files are accepted.")
 
-    filepath = os.path.join(BASE_DIR, file.filename)
+    filepath = os.path.join(DATA_DIR, file.filename)
     contents = await file.read()
 
     # Validate JSON syntax
